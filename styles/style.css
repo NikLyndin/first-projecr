@@ -23,7 +23,7 @@ body {
 	margin: 0 auto;
   font-family: Raleway, sans-serif;
 	max-width: 1240px;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 a {
@@ -90,4 +90,22 @@ ul {
 
 .header-clients_image {
 	filter: grayscale(100%);
+}
+
+.main {
+	margin-top: 140px;
+}
+
+.section-title_container {
+	margin-bottom: 80px;
+	display: flex;
+	align-items: center;
+	gap: 40px;
+}
+
+.section-title span {
+background-color: #B9FF66;
+font-size: 40px	;
+border-radius: 7px;
+padding: 0 7px;
 }
