@@ -26,6 +26,18 @@ body {
 	font-size: 18px;
 }
 
+h1 {
+	font-size: 59px;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
 a {
 	text-decoration: none;
 	color: #000;
@@ -74,10 +86,6 @@ ul {
 	max-width: 481px;
 }
 
-.header-main_title {
-	font-size: 59px;
-}
-
 .buttone-consultation {
 	color: #fff;
 	background-color: #000;
@@ -103,9 +111,49 @@ ul {
 	gap: 40px;
 }
 
-.section-title span {
-background-color: #B9FF66;
-font-size: 40px	;
-border-radius: 7px;
-padding: 0 7px;
+.section-title span{
+	background-color: #b9ff66;
+	border-radius: 7px;
+	padding: 0 7px;
+}
+
+.services-list {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 40px 40px;
+}
+
+.services-list_item {
+	padding: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 45px;
+	border: 1px solid #000;
+	box-shadow: 0 5px 0 0;
+}
+
+.services-list_item-left_column {
+	display: flex;
+	flex-direction: column;
+	gap: 93px;
+
+}
+
+.grey_section {
+	background-color: #f3f3f3;
+}
+
+.green_section {
+	background-color: #b9ff66;
+}
+
+.black_section {
+	background-color: #000;
+	color: #fff;
+}
+
+.services-white_title {
+	background-color: #fff;
+	color: #000;
 }
