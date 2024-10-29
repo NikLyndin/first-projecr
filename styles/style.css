@@ -48,6 +48,10 @@ ul {
 	list-style: none;
 }
 
+.section-title_container {
+	margin-top: 140px;
+}
+
 .button-action {
 	font-size: 20px;
 	padding: 20px 35px;
@@ -98,10 +102,6 @@ ul {
 
 .header-clients_image {
 	filter: grayscale(100%);
-}
-
-.main {
-	margin-top: 140px;
 }
 
 .section-title_container {
@@ -156,4 +156,27 @@ ul {
 .services-white_title {
 	background-color: #fff;
 	color: #000;
+}
+
+.services-green_title {
+	background-color: #b9ff66;
+	color: #000;
+}
+
+.services-list_title span {
+	border-radius: 7px;
+	padding: 0 7px;
+}
+
+.black_section a {
+	color: #fff;
+}
+
+.services-list_link {
+	max-height: 41px;
+}
+
+.services-list_link-image {
+	vertical-align: middle;
+	margin-right: 15px;
 }
