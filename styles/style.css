@@ -24,10 +24,14 @@ body {
   font-family: Raleway, sans-serif;
 	max-width: 1240px;
 	font-size: 18px;
+	font-family: 'SpaceGrotesk', sans-serif;
+	font-weight: 400;
 }
 
 h1 {
 	font-size: 59px;
+	font-family: 'SpaceGrotesk', sans-serif;
+	font-weight: 700;
 }
 
 h2 {
